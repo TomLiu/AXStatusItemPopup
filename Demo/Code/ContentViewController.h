@@ -11,7 +11,7 @@
 
 @interface ContentViewController : NSViewController
 
-@property(weak, nonatomic) AXStatusItemPopup *statusItemPopup;
+@property(nonatomic, assign) AXStatusItemPopup *statusItemPopup;
 
 - (IBAction)closeButtonPressed:(id)sender;
 
